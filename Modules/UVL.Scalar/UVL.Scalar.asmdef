@@ -1,0 +1,16 @@
+{
+    "name": "UVL.Scalar",
+    "rootNamespace": "",
+    "references": [
+        "GUID:379b442a64c158f4e9b9fd4f84e9a383"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,19 @@
+{
+    "name": "UVL.Dicom",
+    "rootNamespace": "",
+    "references": [
+        "GUID:379b442a64c158f4e9b9fd4f84e9a383",
+        "GUID:f61b1996728b36d4c89e2f2eebfd737b"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Dicom.Core.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
