@@ -10,7 +10,7 @@
     "allowUnsafeCode": false,
     "overrideReferences": true,
     "precompiledReferences": [
-        "Dicom.Core.dll"
+        "fo-dicom.core.dll"
     ],
     "autoReferenced": true,
     "defineConstraints": [],

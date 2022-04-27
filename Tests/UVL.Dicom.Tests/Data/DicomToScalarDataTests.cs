@@ -7,7 +7,7 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.TestTools;
 
-using Dicom;
+using FellowOakDicom;
 
 namespace UVL.Dicom
 {

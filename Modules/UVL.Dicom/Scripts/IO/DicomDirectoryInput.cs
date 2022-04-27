@@ -5,7 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
-using Dicom;
+using FellowOakDicom;
 
 namespace UVL.Dicom.IO
 {

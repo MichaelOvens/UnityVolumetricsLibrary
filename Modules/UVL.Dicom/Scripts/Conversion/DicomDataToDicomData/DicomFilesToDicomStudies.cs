@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-using Dicom;
+using FellowOakDicom;
 
 namespace UVL.Dicom.Conversion
 {

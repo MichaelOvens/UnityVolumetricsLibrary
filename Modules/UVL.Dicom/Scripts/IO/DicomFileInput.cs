@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Threading.Tasks;
 
-using Dicom;
+using FellowOakDicom;
 
 namespace UVL.Dicom.IO
 {

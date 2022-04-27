@@ -1,6 +1,6 @@
 using UnityEngine;
 
-using Dicom;
+using FellowOakDicom;
 
 namespace UVL.Dicom
 {

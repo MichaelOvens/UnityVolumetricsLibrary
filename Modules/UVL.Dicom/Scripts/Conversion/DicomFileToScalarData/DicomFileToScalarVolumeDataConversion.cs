@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Threading.Tasks;
 using UnityEngine;
 
-using Dicom;
+using FellowOakDicom;
 
 namespace UVL.Dicom.Conversion
 {

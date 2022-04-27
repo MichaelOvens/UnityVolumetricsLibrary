@@ -2,9 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-using Dicom;
-using Dicom.Imaging;
-using Dicom.Imaging.Render;
+using FellowOakDicom;
+using FellowOakDicom.Imaging;
+using FellowOakDicom.Imaging.Render;
 
 namespace UVL.Dicom.Conversion
 {
