@@ -20,7 +20,7 @@ namespace UVL.Scalar.Rendering
         private readonly float MAX_MS_PER_FRAME = ScalarTestData.MAX_MS_PER_FRAME;
 
         [UnityTest]
-        public IEnumerator SliceScalarToSliceRender()
+        public IEnumerator SliceScalarDataToSliceRender()
         {
             AsyncResult<Texture2D> textureResult = TextureSliceInput.ReadAsync(FILEPATH);
 
@@ -59,7 +59,7 @@ namespace UVL.Scalar.Rendering
         }
 
         [UnityTest]
-        public IEnumerator StackScalarToStackRender()
+        public IEnumerator StackScalarDataToStackRender()
         {
             AsyncResult<Texture2D[]> textureResult = TextureStackInput.ReadAsync(DIRECTORY);
 
@@ -110,7 +110,7 @@ namespace UVL.Scalar.Rendering
         }
 
         [UnityTest]
-        public IEnumerator VolumeScalarToStackRender()
+        public IEnumerator VolumeScalarDataToStackRender()
         {
             AsyncResult<Texture3D> textureResult = TextureVolumeInput.ReadAsync(DIRECTORY);
 
@@ -184,7 +184,7 @@ namespace UVL.Scalar.Rendering
         }
 
         [UnityTest]
-        public IEnumerator StackScalarToVolumeRender()
+        public IEnumerator StackScalarDataToVolumeRender()
         {
             AsyncResult<Texture2D[]> textureResult = TextureStackInput.ReadAsync(DIRECTORY);
 
