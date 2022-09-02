@@ -6,16 +6,10 @@ using UnityEditor;
 namespace UVL.Scalar.Rendering.Editors
 {
     [CustomEditor(typeof(ScalarVolumeRenderer))]
-    public class VolumeRendererInspector : ScalarRendererInspector
+    public class VolumeRendererInspector : Editor
     {
         public override void OnInspectorGUI()
         {
-            if (!Application.isPlaying)
-            {
-                EnforceRendererComponent();
-                EnforceMaterial(SCALAR_VOLUME_DIRECT);
-            }
-
             base.OnInspectorGUI();
         }
     }
